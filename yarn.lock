@@ -3610,6 +3610,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"axios@npm:^0.26.1":
+  version: 0.26.1
+  resolution: "axios@npm:0.26.1"
+  dependencies:
+    follow-redirects: ^1.14.8
+  checksum: d9eb58ff4bc0b36a04783fc9ff760e9245c829a5a1052ee7ca6013410d427036b1d10d04e7380c02f3508c5eaf3485b1ae67bd2adbfec3683704745c8d7a6e1a
+  languageName: node
+  linkType: hard
+
 "axobject-query@npm:^2.2.0":
   version: 2.2.0
   resolution: "axobject-query@npm:2.2.0"
@@ -6847,6 +6856,16 @@ __metadata:
     debug:
       optional: true
   checksum: f5982e0eb481818642492d3ca35a86989c98af1128b8e1a62911a3410621bc15d2b079e8170b35b19d3bdee770b73ed431a257ed86195af773771145baa57845
+  languageName: node
+  linkType: hard
+
+"follow-redirects@npm:^1.14.8":
+  version: 1.15.1
+  resolution: "follow-redirects@npm:1.15.1"
+  peerDependenciesMeta:
+    debug:
+      optional: true
+  checksum: 6aa4e3e3cdfa3b9314801a1cd192ba756a53479d9d8cca65bf4db3a3e8834e62139245cd2f9566147c8dfe2efff1700d3e6aefd103de4004a7b99985e71dd533
   languageName: node
   linkType: hard
 
@@ -12789,7 +12808,7 @@ __metadata:
     supabase: ^0.5.0
     swr: ^1.2.2
     ts-node: ^10.5.0
-    twilio: ^3.74.0
+    twilio: ^3.80.0
     typescript: ^4.5.5
     wait-on: ^6.0.1
     web-ext: ^6.7.0
@@ -13078,11 +13097,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"twilio@npm:^3.74.0":
-  version: 3.74.0
-  resolution: "twilio@npm:3.74.0"
+"twilio@npm:^3.80.0":
+  version: 3.80.0
+  resolution: "twilio@npm:3.80.0"
   dependencies:
-    axios: ^0.25.0
+    axios: ^0.26.1
     dayjs: ^1.8.29
     https-proxy-agent: ^5.0.0
     jsonwebtoken: ^8.5.1
@@ -13091,9 +13110,9 @@ __metadata:
     qs: ^6.9.4
     rootpath: ^0.1.2
     scmp: ^2.1.0
-    url-parse: ^1.5.3
+    url-parse: ^1.5.9
     xmlbuilder: ^13.0.2
-  checksum: 9b156969fb174d838b104bb9641b037a1431c9fabe1911f0fef36929b5613ff59514e39a6e12a71b06e12b14465ec78bdeee773250387467e8d091aa62b8077d
+  checksum: 043dfdb17a9dedc369022360ebfe2b54474a47a76fae30a3ffa9f6996466b47fd9173b5f7704734567483fa408de1c699e7d50d47be2f83a3bb9a401165cfdb3
   languageName: node
   linkType: hard
 
@@ -13395,13 +13414,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"url-parse@npm:^1.5.3":
-  version: 1.5.3
-  resolution: "url-parse@npm:1.5.3"
+"url-parse@npm:^1.5.9":
+  version: 1.5.10
+  resolution: "url-parse@npm:1.5.10"
   dependencies:
     querystringify: ^2.1.1
     requires-port: ^1.0.0
-  checksum: c6b32fff835e43f3b1b4150239f459744f0ab1a908841dbfecbfc79bf67f4d6c8d9af1841d0c6d814d45bfa08525cc29312a0bef31db7aa894306b3db07e4ee0
+  checksum: fbdba6b1d83336aca2216bbdc38ba658d9cfb8fc7f665eb8b17852de638ff7d1a162c198a8e4ed66001ddbf6c9888d41e4798912c62b4fd777a31657989f7bdf
   languageName: node
   linkType: hard
 
